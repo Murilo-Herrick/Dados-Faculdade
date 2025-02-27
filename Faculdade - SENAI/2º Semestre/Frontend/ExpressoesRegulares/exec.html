@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expressões Regulares EXEC</title>
+    <script>
+        function regexpExec() {
+            var str = "Expressões regulares em JavaScript na DevMedia!";
+            var regexp = new RegExp(/[j+]/i);
+            var n = regexp.exec(str);
+            alert(n);
+        }
+    </script>
+</head>
+<body>
+    <button onclick="regexpExec()">Script</button>
+</body>
+</html>

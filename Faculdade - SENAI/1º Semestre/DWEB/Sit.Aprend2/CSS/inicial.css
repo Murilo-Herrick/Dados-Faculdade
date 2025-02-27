@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.cabe {
+    float: right;
+    background-color: black;
+    width: 100%;
+    height: 10vh;
+    margin: 0;
+    box-shadow: 0px 6px 8px gray;
+}
+
+.cabe h1 {
+    padding: 0px 50px;
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+}
+
+.labs{
+    margin-top: 100px;
+    float: right;
+    height: 480px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.labs h1 {
+    font-size: 20px;
+    text-align: center;
+    font-size: max(20px, 3vh);
+}
+
+.labs p {
+    font-size: 15px;
+    margin-top: 30px;
+    margin-left: 22px;
+    font-size: max(15px, 3vh);
+}
+
+.auto {
+    margin-left: 10px;
+    margin-right: 20px;
+    float: right;
+    width: 25%;
+    height: 50vh;
+    box-shadow: 0px 10px 10px gray, 0px -5px 10px -5px gray;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.auto:hover {
+    transform: scale(1.05);
+    opacity: 0.6;
+    background-color: rgba(255, 255, 255, 0.329);
+}
+
+.info {
+    margin-left: 10px;
+    margin-right: 20px;
+    float: right;
+    width: 25%;
+    height: 50vh;
+    box-shadow: 0px 10px 10px gray, 0px -5px 10px -5px gray;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.info:hover{
+    transform: scale(1.05);
+    opacity: 0.6;
+    background-color: rgba(255, 255, 255, 0.329);
+}
+
+.robo {
+    margin-left: 10px;
+    margin-right: 20px;
+    float: right;
+    width: 25%;
+    height: 50vh;
+    box-shadow: 0px 10px 10px gray, 0px -5px 10px -5px gray;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.robo:hover{
+    transform: scale(1.05);
+    opacity: 0.6;
+    background-color: rgba(255, 255, 255, 0.329);
+}
+
+.fundo img{
+    width: 97%;
+    height: 250px;
+    margin-top: 10px;
+    padding: 0px 5px;
+    border-radius: 20px;
+}
+
+.navegar-pagina{
+    text-decoration: none;
+    color: black;
+}
+
+header{
+    background-color: white;
+}
+
+footer{
+    bottom: 0;
+    background-color: black;
+    width: 100%;
+    height: 8vh;
+    position: fixed;
+    box-shadow: 0 0px 5px 2px gray;
+}
+
+.contato{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 2vh;
+}
+
+.icones {
+    display: flex;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.icones i{
+    margin-top: 15px;
+    color: white;
+    scale: 2;
+}

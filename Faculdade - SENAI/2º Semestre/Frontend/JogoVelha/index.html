@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Velha</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main class="d-flex flex-column align-items-center justify-content-center min-vh-100 p-3">
+        <div class="container bg-white rounded-3 shadow p-4">
+            <h1 class="text-center mb-3">Jogo da Velha</h1>
+            <hr>
+            <div class="d-flex justify-content-around mb-3">
+                <h2 class="mb-0">Jogador atual:</h2>
+                <h2 id="jogador" class="text-dark mb-0">X</h2>
+            </div>
+
+            <div class="row g-2 mb-3 game">
+                <div class="col-4">
+                    <button class="game-btn btn btn-outline-secondary" type="button" id="1" onclick="bt1()"> </button>
+                </div>
+                <div class="col-4">
+                    <button class="game-btn btn btn-outline-secondary" type="button" id="2" onclick="bt2()"> </button>
+                </div>
+                <div class="col-4">
+                    <button class="game-btn btn btn-outline-secondary" type="button" id="3" onclick="bt3()"> </button>
+                </div>
+                <div class="col-4">
+                    <button class="game-btn btn btn-outline-secondary" type="button" id="4" onclick="bt4()"> </button>
+                </div>
+                <div class="col-4">
+                    <button class="game-btn btn btn-outline-secondary" type="button" id="5" onclick="bt5()"> </button>
+                </div>
+                <div class="col-4">
+                    <button class="game-btn btn btn-outline-secondary" type="button" id="6" onclick="bt6()"> </button>
+                </div>
+                <div class="col-4">
+                    <button class="game-btn btn btn-outline-secondary" type="button" id="7" onclick="bt7()"> </button>
+                </div>
+                <div class="col-4">
+                    <button class="game-btn btn btn-outline-secondary" type="button" id="8" onclick="bt8()"> </button>
+                </div>
+                <div class="col-4">
+                    <button class="game-btn btn btn-outline-secondary" type="button" id="9" onclick="bt9()"> </button>
+                </div>
+            </div>
+            <hr>
+            <div class="d-flex justify-content-center">
+                <button type="button" onclick="reiniciar()" class="btn btn-dark w-100">Reiniciar</button>
+            </div>
+        </div>
+    </main>
+    <script src="main.js"></script>
+</body>
+
+</html>

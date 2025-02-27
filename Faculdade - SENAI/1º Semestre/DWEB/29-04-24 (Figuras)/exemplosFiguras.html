@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplos Figuras</title>
+</head>
+
+<body>
+    <svg width="100" height="100"> /*É um formato de tipo de imagem exclusivo para gráficos com base vetorial 
+        escritos em linguagem de marcação extensível (XML). Se você modificar o width e heigth você irá 
+        aumentar seu vetor*/
+        <circle cx="50" cy="50" r="20" stroke="green" stroke-width="4" fill="yellow"></circle> /*Você define 
+        a circunferência que está aparecendo ou CX e CY você manipula a posição dele dentro do vetor, 
+        STROKE é a cor da borda que ficará no contorno da circunferência, STROKE-WIDTH é o tamanho da borda 
+        que você irá definir e FILL é usado para definir a cor do circulo */
+    </svg>
+    <svg>
+        <line x1="0" y1="10" x2="100" y2="10" style="stroke: red; stroke: width 12px"></line> /* Você
+        cria uma linha e controla posição dela em forma de vetor. x1 é o meu ponto inicial e x2 o meu final 
+        então ele vai seguir uma linha reta, mas isso vai depender também dos valor que eu definir no meu 
+        eixo y onde ele também irá controlar a posição da minha linha */
+    </svg>
+    <svg>
+        <rect x="10" y="10" width="200" height="100" stroke="red" stroke-width="6" fill="blue"></rect>
+    </svg>
+    <br>
+        <svg width="600" height="220" xmins="http://www.w3.org/2000/svg">
+            <polygon points="50,10 0,190 100,190" fill="lime"></polygon>
+            <rect width="150" height="100" x="120" y="50" fill="blue"></rect>
+            <circle r="45" cx="350" cy="100" fill="red"></circle>
+            <text x="420" y="100" fill="red">SENAI!</text>
+        </svg>
+        <svg height="210" width="500" xmins="http://www.w3.org/2000/svg">
+            <polyline points="0,0 50,150 100,75 150,50 200,140 250,140" 
+            style="fill: none;stroke:green;stroke-width: 3"></polyline>
+        </svg>
+        <br>
+        <svg width="100%" height="100" xmins="http://www.w3.org/2000/svg">
+            <circle cx="50" cy="50" r="50" style="fill:red;">
+                <animate
+                    attributeName="cx"  /*Define o eixo em que ele vai percorrer*/
+                    begin="0s"  /*Define qaundo ele vai começar a percorrer essa linha*/
+                    dur="8s"    /*A duração que deveter a animação*/
+                    from="0%"   /*Em que parte da tela irá ser seu ponto de partida*/
+                    to="90%"    /*Esse define até que ponto ele irá percorrer, se ele irá percorrer metade da 
+                                tela ou ela inteira, depende da porcentagem que você colocar para ele parar */
+                    /*repeatCount = "indefinite"*/
+                                /* Se você descomentar esse trecho e comentar o de baixo,
+                                ele irá fazer com que quando o circulo chegar ao final ele volte ao começo e faça todo 
+                                percurso denovo infinitas vezes*/
+                    fill="freeze" 
+                                /*Quando ele chegar no final que você definiu ele irá ficar congelado 
+                                (parado)*/
+                >
+                </animate>
+            </circle>
+        </svg>
+        <br>
+        <svg width="200" height="180" xmins="http://www.w3.org/2000/svg">
+            <rect x="30" y="30" height="110" width="110" style="stroke:green;fill:red">
+                <animateTransform
+                    attributeName="transform"
+                    begin="0s"
+                    dur="10s"
+                    type="rotate"
+                    from="0 8s 8s"
+                    to="360 85 85"
+                    repeatCount="indefinite"
+                >
+                </animateTransform>
+            </rect>
+        </svg>
+
+</body>
+
+</html>

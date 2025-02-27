@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: linear-gradient(70deg, rgba(0, 0, 0, 0.144), rgba(255, 217, 0, 0.103));
+}
+
+.cat {
+    background-color: black;
+    float: left;
+    top: 0;
+    width: 20%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cat h1 {
+    color: white;
+    margin: 0;
+    padding: 10px 0px;
+    margin-right: 40px;
+}
+
+.cat ul li {
+    width: 7vw;
+    color: white;
+    display: grid;
+    font-size: 20px;
+    padding: 10px 0px;
+}
+
+.cat a {
+    text-decoration: none;
+    color: white;
+}
+
+.cabe {
+    float: right;
+    background-color: white;
+    width: 80%;
+    height: 9vh;
+    margin: 0;
+    background-color: gold;
+    box-shadow: 0px 10px 10px gray, 0px -5px 10px -5px gray;
+}
+
+.cabe h1 {
+    padding: 0px 40px;
+}
+
+.formulario {
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.formulario button {
+    height: 3.5vh;
+    width: 6vw;
+    border: 1px solid;
+    border-radius: 4px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.formulario button:hover {
+    height: 3.6vh;
+    width: 6.2vw;
+    border-radius: 5px;
+    border: 1px solid;
+    transition: 500ms linear;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.formulario input {
+    height: 3vh;
+    width: 20vw;
+}
+
+.lista {
+    height: 50vh;
+    width: 70vw;
+    float: left;
+    padding: 0px 15px;
+}
+
+.lista h2{
+    background-color: gold;
+    height: 4vh;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-top: 5px;
+    width: 70vw;
+}
+
+.itens {
+    border: none;
+    font-size: 18px;
+    color: black;
+}
+
+.elementos{
+    background-color: white;
+    margin-left: 30px;
+    float: left;
+    width: 75%;
+    height: 70vh;
+    border: 2px solid gray;
+    border-radius: 20px;
+    box-shadow: 0px 10px 10px gray, 0px -5px 10px -5px white;
+    margin-top: 30px;
+}
+
+
+
+
+
