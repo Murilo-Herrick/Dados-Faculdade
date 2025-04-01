@@ -13,8 +13,8 @@ namespace Atividade_04
 {
     public partial class Form1 : Form
     {
-        private String tanqueOff = "F:\\Faculdade - SENAI\\3º Semestre\\IFACI\\C#\\Imagens\\tanque_pulmao_Off.png";
-        private String tanqueOn = "F:\\Faculdade - SENAI\\3º Semestre\\IFACI\\C#\\Imagens\\tanque_pulmao_On.png";
+        private String tanqueOff = "E:\\Faculdade - SENAI\\3º Semestre\\IFACI\\C#\\Imagens\\tanque_pulmao_Off.png";
+        private String tanqueOn = "E:\\Faculdade - SENAI\\3º Semestre\\IFACI\\C#\\Imagens\\tanque_pulmao_On.png";
         private int tempoLiga;
         private int tempoDesliga;
 
@@ -23,7 +23,7 @@ namespace Atividade_04
             InitializeComponent();
             pictureBox1.Image = Image.FromFile(tanqueOff);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
-            progressBar1.Value = 20;
+            progressBar1.Value = 10;
             progressBar1.Step = 20;
         }
 
@@ -46,12 +46,12 @@ namespace Atividade_04
         {
             tempoLiga++;
             progressBar1.Step = +20;
-            if (tempoLiga <= 4)
+            if (tempoLiga <= 5)
             {
                 progressBar1.PerformStep();
                 label2.Text = progressBar1.Value.ToString();
             }
-            if (tempoLiga == 4)
+            if (tempoLiga == 5)
             {
                 timer1.Enabled = false;
             }   
@@ -71,12 +71,12 @@ namespace Atividade_04
         {
             tempoDesliga++;
             progressBar1.Step = -20;
-            if (tempoDesliga <= 4)
+            if (tempoDesliga <= 5)
             {
                 progressBar1.PerformStep();
                 label2.Text = progressBar1.Value.ToString();
             }
-            if (tempoDesliga == 4)
+            if (tempoDesliga == 5)
             {
                 timer1.Enabled = false;
             }
