@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+  }
+  
+  .container {
+    max-width: 700px;
+    margin: auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  canvas {
+    max-width: 100%;
+  }
+  
+  #btnLeitura{
+    margin-top: 20px;
+    width: 8vw;
+    height: 6vh;
+    font-size: 25px;
+    color: white;
+    border-radius: 15px;
+    border-color: white;
+    background-color: green;
+    box-shadow: 0px 0px 10px;
+  }
+  
+  #btnLeitura:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+  }
+  
+  .btn-verde{
+    background-color: green !important;
+    color: white;
+  }
+  
+  .btn-vermelho{
+    background-color: red !important;
+    color: white;
+  }

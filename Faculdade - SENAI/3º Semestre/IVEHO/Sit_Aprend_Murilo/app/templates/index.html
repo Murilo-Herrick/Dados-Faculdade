@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="{{ url_for('static',filename='style.css') }}" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <title>Situação de Aprendizagem - Murilo</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Monitoramento de Sensores</h1>
+      <p><strong>Temperatura</strong><span id="temp">--</span>°C</p>
+      <p><strong>Umidade</strong><span id="hum">--</span>%</p>
+      <p><strong>Presença</strong><span id="pres">--</span></p>
+      <p><strong>Tensão</strong><span id="ten">--</span>V</p>
+      <canvas id="sensorChart"></canvas>
+    </div>
+
+    <button id="btnLeitura" onclick="leitura()">Iniciar</button>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+  </body>
+</html>

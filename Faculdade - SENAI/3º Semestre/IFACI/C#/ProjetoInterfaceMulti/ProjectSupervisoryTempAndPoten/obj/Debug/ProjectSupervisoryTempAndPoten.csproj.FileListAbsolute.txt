@@ -1,0 +1,13 @@
+C:\Users\Aluno\Desktop\ProjectSupervisoryTempAndPoten\bin\Debug\ProjectSupervisoryTempAndPoten.exe.config
+C:\Users\Aluno\Desktop\ProjectSupervisoryTempAndPoten\bin\Debug\ProjectSupervisoryTempAndPoten.exe
+C:\Users\Aluno\Desktop\ProjectSupervisoryTempAndPoten\bin\Debug\ProjectSupervisoryTempAndPoten.pdb
+C:\Users\Aluno\Desktop\ProjectSupervisoryTempAndPoten\obj\Debug\ProjectSupervisoryTempAndPoten.csproj.AssemblyReference.cache
+C:\Users\Aluno\Desktop\ProjectSupervisoryTempAndPoten\obj\Debug\ProjectSupervisoryTempAndPoten.Properties.Resources.resources
+C:\Users\Aluno\Desktop\ProjectSupervisoryTempAndPoten\obj\Debug\ProjectSupervisoryTempAndPoten.csproj.GenerateResource.cache
+C:\Users\Aluno\Desktop\ProjectSupervisoryTempAndPoten\obj\Debug\ProjectSupervisoryTempAndPoten.csproj.CoreCompileInputs.cache
+C:\Users\Aluno\Desktop\ProjectSupervisoryTempAndPoten\obj\Debug\ProjectSupervisoryTempAndPoten.exe
+C:\Users\Aluno\Desktop\ProjectSupervisoryTempAndPoten\obj\Debug\ProjectSupervisoryTempAndPoten.pdb
+C:\Users\Aluno\Desktop\ProjectSupervisoryTempAndPoten\obj\Debug\ProjectSupervisoryTempAndPoten.mainForm.resources
+C:\Users\Aluno\Desktop\ProjectSupervisoryTempAndPoten\bin\Debug\AGauge.dll
+C:\Users\Aluno\Desktop\ProjectSupervisoryTempAndPoten\obj\Debug\ProjectS.3BF23272.Up2Date
+C:\Users\Aluno\Desktop\ProjectSupervisoryTempAndPoten\bin\Debug\ThermometerControl.dll
