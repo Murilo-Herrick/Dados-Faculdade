@@ -1,0 +1,53 @@
+C:\Users\Aluno\Desktop\ProjectSupervisoryTempAndPoten\bin\Debug\ProjectSupervisoryTempAndPoten.exe.config
+C:\Users\Aluno\Desktop\ProjectSupervisoryTempAndPoten\bin\Debug\ProjectSupervisoryTempAndPoten.exe
+C:\Users\Aluno\Desktop\ProjectSupervisoryTempAndPoten\bin\Debug\ProjectSupervisoryTempAndPoten.pdb
+C:\Users\Aluno\Desktop\ProjectSupervisoryTempAndPoten\obj\Debug\ProjectSupervisoryTempAndPoten.csproj.AssemblyReference.cache
+C:\Users\Aluno\Desktop\ProjectSupervisoryTempAndPoten\obj\Debug\ProjectSupervisoryTempAndPoten.Properties.Resources.resources
+C:\Users\Aluno\Desktop\ProjectSupervisoryTempAndPoten\obj\Debug\ProjectSupervisoryTempAndPoten.csproj.GenerateResource.cache
+C:\Users\Aluno\Desktop\ProjectSupervisoryTempAndPoten\obj\Debug\ProjectSupervisoryTempAndPoten.csproj.CoreCompileInputs.cache
+C:\Users\Aluno\Desktop\ProjectSupervisoryTempAndPoten\obj\Debug\ProjectSupervisoryTempAndPoten.exe
+C:\Users\Aluno\Desktop\ProjectSupervisoryTempAndPoten\obj\Debug\ProjectSupervisoryTempAndPoten.pdb
+C:\Users\Aluno\Desktop\ProjectSupervisoryTempAndPoten\obj\Debug\ProjectSupervisoryTempAndPoten.mainForm.resources
+C:\Users\Aluno\Desktop\ProjectSupervisoryTempAndPoten\bin\Debug\AGauge.dll
+C:\Users\Aluno\Desktop\ProjectSupervisoryTempAndPoten\obj\Debug\ProjectS.3BF23272.Up2Date
+C:\Users\Aluno\Desktop\ProjectSupervisoryTempAndPoten\bin\Debug\ThermometerControl.dll
+E:\Faculdade - SENAI\3º Semestre\IFACI\C#\Projeto_Interface_Multifuncao\ProjectSupervisoryTempAndPoten\ProjectSupervisoryTempAndPoten\obj\Debug\ProjectSupervisoryTempAndPoten.csproj.AssemblyReference.cache
+E:\Faculdade - SENAI\3º Semestre\IFACI\C#\Projeto_Interface_Multifuncao\ProjectSupervisoryTempAndPoten\ProjectSupervisoryTempAndPoten\obj\Debug\ProjectSupervisoryTempAndPoten.mainForm.resources
+E:\Faculdade - SENAI\3º Semestre\IFACI\C#\Projeto_Interface_Multifuncao\ProjectSupervisoryTempAndPoten\ProjectSupervisoryTempAndPoten\obj\Debug\ProjectSupervisoryTempAndPoten.Properties.Resources.resources
+E:\Faculdade - SENAI\3º Semestre\IFACI\C#\Projeto_Interface_Multifuncao\ProjectSupervisoryTempAndPoten\ProjectSupervisoryTempAndPoten\obj\Debug\ProjectSupervisoryTempAndPoten.csproj.GenerateResource.cache
+E:\Faculdade - SENAI\3º Semestre\IFACI\C#\Projeto_Interface_Multifuncao\ProjectSupervisoryTempAndPoten\ProjectSupervisoryTempAndPoten\obj\Debug\ProjectSupervisoryTempAndPoten.csproj.CoreCompileInputs.cache
+E:\Faculdade - SENAI\3º Semestre\IFACI\C#\Projeto_Interface_Multifuncao\ProjectSupervisoryTempAndPoten\ProjectSupervisoryTempAndPoten\obj\Debug\ProjectSupervisoryTempAndPoten.exe
+E:\Faculdade - SENAI\3º Semestre\IFACI\C#\Projeto_Interface_Multifuncao\ProjectSupervisoryTempAndPoten\ProjectSupervisoryTempAndPoten\obj\Debug\ProjectSupervisoryTempAndPoten.pdb
+E:\Faculdade - SENAI\3º Semestre\IFACI\C#\Projeto_Interface_Multifuncao\ProjectSupervisoryTempAndPoten\obj\Debug\ProjectSupervisoryTempAndPoten.csproj.AssemblyReference.cache
+E:\Faculdade - SENAI\3º Semestre\IFACI\C#\Projeto_Interface_Multifuncao\ProjectSupervisoryTempAndPoten\obj\Debug\ProjectSupervisoryTempAndPoten.mainForm.resources
+E:\Faculdade - SENAI\3º Semestre\IFACI\C#\Projeto_Interface_Multifuncao\ProjectSupervisoryTempAndPoten\obj\Debug\ProjectSupervisoryTempAndPoten.Properties.Resources.resources
+E:\Faculdade - SENAI\3º Semestre\IFACI\C#\Projeto_Interface_Multifuncao\ProjectSupervisoryTempAndPoten\obj\Debug\ProjectSupervisoryTempAndPoten.csproj.GenerateResource.cache
+E:\Faculdade - SENAI\3º Semestre\IFACI\C#\Projeto_Interface_Multifuncao\ProjectSupervisoryTempAndPoten\obj\Debug\ProjectSupervisoryTempAndPoten.csproj.CoreCompileInputs.cache
+E:\Faculdade - SENAI\3º Semestre\IFACI\C#\Projeto_Interface_Multifuncao\ProjectSupervisoryTempAndPoten\bin\Debug\ProjectSupervisoryTempAndPoten.exe.config
+E:\Faculdade - SENAI\3º Semestre\IFACI\C#\Projeto_Interface_Multifuncao\ProjectSupervisoryTempAndPoten\bin\Debug\ProjectSupervisoryTempAndPoten.exe
+E:\Faculdade - SENAI\3º Semestre\IFACI\C#\Projeto_Interface_Multifuncao\ProjectSupervisoryTempAndPoten\bin\Debug\ProjectSupervisoryTempAndPoten.pdb
+E:\Faculdade - SENAI\3º Semestre\IFACI\C#\Projeto_Interface_Multifuncao\ProjectSupervisoryTempAndPoten\bin\Debug\AGauge.dll
+E:\Faculdade - SENAI\3º Semestre\IFACI\C#\Projeto_Interface_Multifuncao\ProjectSupervisoryTempAndPoten\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+E:\Faculdade - SENAI\3º Semestre\IFACI\C#\Projeto_Interface_Multifuncao\ProjectSupervisoryTempAndPoten\bin\Debug\System.Buffers.dll
+E:\Faculdade - SENAI\3º Semestre\IFACI\C#\Projeto_Interface_Multifuncao\ProjectSupervisoryTempAndPoten\bin\Debug\System.IO.Pipelines.dll
+E:\Faculdade - SENAI\3º Semestre\IFACI\C#\Projeto_Interface_Multifuncao\ProjectSupervisoryTempAndPoten\bin\Debug\System.Memory.dll
+E:\Faculdade - SENAI\3º Semestre\IFACI\C#\Projeto_Interface_Multifuncao\ProjectSupervisoryTempAndPoten\bin\Debug\System.Numerics.Vectors.dll
+E:\Faculdade - SENAI\3º Semestre\IFACI\C#\Projeto_Interface_Multifuncao\ProjectSupervisoryTempAndPoten\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+E:\Faculdade - SENAI\3º Semestre\IFACI\C#\Projeto_Interface_Multifuncao\ProjectSupervisoryTempAndPoten\bin\Debug\System.Text.Encodings.Web.dll
+E:\Faculdade - SENAI\3º Semestre\IFACI\C#\Projeto_Interface_Multifuncao\ProjectSupervisoryTempAndPoten\bin\Debug\System.Text.Json.dll
+E:\Faculdade - SENAI\3º Semestre\IFACI\C#\Projeto_Interface_Multifuncao\ProjectSupervisoryTempAndPoten\bin\Debug\System.Threading.Tasks.Extensions.dll
+E:\Faculdade - SENAI\3º Semestre\IFACI\C#\Projeto_Interface_Multifuncao\ProjectSupervisoryTempAndPoten\bin\Debug\System.ValueTuple.dll
+E:\Faculdade - SENAI\3º Semestre\IFACI\C#\Projeto_Interface_Multifuncao\ProjectSupervisoryTempAndPoten\bin\Debug\ThermometerControl.dll
+E:\Faculdade - SENAI\3º Semestre\IFACI\C#\Projeto_Interface_Multifuncao\ProjectSupervisoryTempAndPoten\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+E:\Faculdade - SENAI\3º Semestre\IFACI\C#\Projeto_Interface_Multifuncao\ProjectSupervisoryTempAndPoten\bin\Debug\System.Buffers.xml
+E:\Faculdade - SENAI\3º Semestre\IFACI\C#\Projeto_Interface_Multifuncao\ProjectSupervisoryTempAndPoten\bin\Debug\System.IO.Pipelines.xml
+E:\Faculdade - SENAI\3º Semestre\IFACI\C#\Projeto_Interface_Multifuncao\ProjectSupervisoryTempAndPoten\bin\Debug\System.Memory.xml
+E:\Faculdade - SENAI\3º Semestre\IFACI\C#\Projeto_Interface_Multifuncao\ProjectSupervisoryTempAndPoten\bin\Debug\System.Numerics.Vectors.xml
+E:\Faculdade - SENAI\3º Semestre\IFACI\C#\Projeto_Interface_Multifuncao\ProjectSupervisoryTempAndPoten\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+E:\Faculdade - SENAI\3º Semestre\IFACI\C#\Projeto_Interface_Multifuncao\ProjectSupervisoryTempAndPoten\bin\Debug\System.Text.Encodings.Web.xml
+E:\Faculdade - SENAI\3º Semestre\IFACI\C#\Projeto_Interface_Multifuncao\ProjectSupervisoryTempAndPoten\bin\Debug\System.Text.Json.xml
+E:\Faculdade - SENAI\3º Semestre\IFACI\C#\Projeto_Interface_Multifuncao\ProjectSupervisoryTempAndPoten\bin\Debug\System.Threading.Tasks.Extensions.xml
+E:\Faculdade - SENAI\3º Semestre\IFACI\C#\Projeto_Interface_Multifuncao\ProjectSupervisoryTempAndPoten\bin\Debug\System.ValueTuple.xml
+E:\Faculdade - SENAI\3º Semestre\IFACI\C#\Projeto_Interface_Multifuncao\ProjectSupervisoryTempAndPoten\obj\Debug\ProjectS.3BF23272.Up2Date
+E:\Faculdade - SENAI\3º Semestre\IFACI\C#\Projeto_Interface_Multifuncao\ProjectSupervisoryTempAndPoten\obj\Debug\ProjectSupervisoryTempAndPoten.exe
+E:\Faculdade - SENAI\3º Semestre\IFACI\C#\Projeto_Interface_Multifuncao\ProjectSupervisoryTempAndPoten\obj\Debug\ProjectSupervisoryTempAndPoten.pdb
