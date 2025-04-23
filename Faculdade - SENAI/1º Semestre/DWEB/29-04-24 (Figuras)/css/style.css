@@ -1,0 +1,11 @@
+body {
+    display: flex;
+    justify-content: center;  /*Centralizar objetos verticalmente no elemento pai */
+    /*align-items: center;*/ /*Centraliza objetos horizontalmente no elemento pai*/
+    min-height: 100vh;
+}
+.corpo {
+    display: block; /*Coloca os elementos um embaixo do outro*/
+    gap: 10px;
+    text-align: center; /*Centraliza objetos horizontalmente no elemento filho*/
+}

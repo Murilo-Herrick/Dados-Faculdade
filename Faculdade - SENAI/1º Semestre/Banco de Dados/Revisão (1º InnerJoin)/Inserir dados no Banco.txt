@@ -1,0 +1,48 @@
+
+CALL cadastro_aluno("Arthur","35.333.333.3","Masculino","SP","São Carlos","Domingos Marigo",
+460,"(16)33733737", "(16)98919898",@rotulo_sida,@saida);
+
+
+CALL cadastro_curso("Java","80","1300,00","tarde",@rotulo_saida,@saida);
+
+
+CALL cadastro_matricula(1,1,"2024-04-16",@rotulo_saida,@saida);
+
+
+
+
+/*Cadastro de Aluno*/
+
+CALL cadastro_aluno("Murilo","24.444.444.4","Masculino","SP","São Carlos","Mais melhor",
+151,"(16)214214141", "(16)93291241",@rotulo_sida,@saida);
+
+CALL cadastro_aluno("Fernando","73.777.777.7","Masculino","SP","Ibaté","Enteidas judas",
+4151,"(16)312125122", "(16)9262362",@rotulo_sida,@saida);
+
+CALL cadastro_aluno("Carol","92.999.999.9","Feminino","SP","São Carlos","Avenida Geral",
+1251,"(16)24623737", "(16)9919291212",@rotulo_sida,@saida);
+
+/*Cadastro de cursos*/
+
+CALL cadastro_curso("Python","60","9000,00","Manha",@rotulo_saida,@saida);
+
+CALL cadastro_curso("Automação","70","1100,00","Noite",@rotulo_saida,@saida);
+
+CALL cadastro_curso("Desenvol. WEB","55","1200,00","Noite",@rotulo_saida,@saida);
+
+
+/*Cadastro de Matriculas*/
+CALL cadastro_matricula(1,1,"2024-04-16",@rotulo_saida,@saida);
+
+CALL cadastro_matricula(1,2,"2024-04-16",@rotulo_saida,@saida);
+
+CALL cadastro_matricula(1,3,"2024-04-16",@rotulo_saida,@saida);
+
+CALL cadastro_matricula(1,4,"2024-04-16",@rotulo_saida,@saida);
+
+CALL cadastro_matricula(2,2,"2024-04-16",@rotulo_saida,@saida);
+
+CALL cadastro_matricula(3,4,"2024-04-16",@rotulo_saida,@saida);
+
+CALL cadastro_matricula(3,1,"2024-04-16",@rotulo_saida,@saida);
+

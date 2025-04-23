@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 02</title>
+</head>
+<body>
+    <script>
+        function cent(){
+            var metro = parseInt(document.getElementById("metro").value);
+            var res = metro * 100
+            document.getElementById("res").innerHTML="Em Centimetros: "+ res;
+        }
+        function mili(){
+            var metro = parseInt(document.getElementById("metro").value);
+            var res = metro * 1000
+            document.getElementById("res").innerHTML="Em Milimetros: "+ res;
+        }
+        
+    </script>
+    
+    <input type="text" id="metro" placeholder="Digite o valor em metros"><br><br>
+    <button type="button" onclick="cent()">Centimetros</button>
+    <button type="button" onclick="mili()">Milimetros</button>
+    <p id="res"></p>
+</body>
+</html>

@@ -1,0 +1,92 @@
+[
+    {
+        "id": "df75b1a526e91c27",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "db8643229f9f6432",
+        "type": "http in",
+        "z": "df75b1a526e91c27",
+        "name": "Mensagem Front-end",
+        "url": "/mensagem",
+        "method": "post",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 120,
+        "y": 240,
+        "wires": [
+            [
+                "95f0314f2fcbd501",
+                "b9fa744080be131e"
+            ]
+        ]
+    },
+    {
+        "id": "95f0314f2fcbd501",
+        "type": "debug",
+        "z": "df75b1a526e91c27",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 500,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "36a5727f47711102",
+        "type": "http response",
+        "z": "df75b1a526e91c27",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 570,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "b9fa744080be131e",
+        "type": "function",
+        "z": "df75b1a526e91c27",
+        "name": "function 1",
+        "func": "msg.payload = { status: \"success\", texto: msg.payload.texto }; // Modifica a mensagem\nreturn msg; // Retorna a mensagem modificada\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 400,
+        "y": 240,
+        "wires": [
+            [
+                "36a5727f47711102",
+                "d3604df066b55dd4"
+            ]
+        ]
+    },
+    {
+        "id": "d3604df066b55dd4",
+        "type": "debug",
+        "z": "df75b1a526e91c27",
+        "name": "debug 2",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 580,
+        "y": 340,
+        "wires": []
+    }
+]

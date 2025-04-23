@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Formulário</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Teste de formulário</h1>
+        <form action="./submit_account" method="POST" class="formulario">
+            <fieldset>
+                <legend>Cadastro</legend>
+                <br>
+                <label for="user_name">Nome</label>
+                <input type="text" id="user_name" name="user_name" minlength="3">
+                <br><br>
+
+                <label for="user_email">Email</label>
+                <input type="email" id="user_email" name="user_email" minlength="4">
+                <br><br>
+
+                <label for="user_cpf">Cpf</label>
+                <input type="text" id="user_cpf" name="user_cpf" minlength="11" maxlength="14">
+                <br><br>
+
+                <label for="password">Senha</label>
+                <input type="password" id="password" name="password">
+                <br><br>
+
+                <label for="data_nasc">Data de Nascimento</label>
+                <input type="date" id="data_nasc" name="data_nasc">
+                <br><br>
+
+                <label for="tel_fixo">Telefone fixo</label>
+                <input type="tel" id="tel_fixo" name="tel_fixo" minlength="12" maxlength="12" title="Digite o telefone com o DDD">
+                <br><br>
+
+                <label for="tel_cel">Telefone celular</label>
+                <input type="tel" id="tel_cel" name="tel_cel" minlength="13" maxlength="13" title="Digite o telefone com o DDD">
+                <br><br>
+
+                <div>
+                    <input type="checkbox" id="termos" name="termos">
+                    <label for="termos">Aceito os termos de contrato</label>
+                </div><br>
+                <input type="submit" value="Cadastrar" class="botao">    
+
+            </fieldset>
+        </form>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

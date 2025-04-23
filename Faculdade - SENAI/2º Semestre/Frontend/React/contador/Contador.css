@@ -1,0 +1,16 @@
+.contador {
+    font-size: 40px;
+}
+
+.definir-limite {
+    display: flex;
+    float: unset;
+    justify-content: center;
+}
+
+input {
+    height: 3vh;
+    width: 6vw;
+    margin-top: 4vh;
+    margin-left: 20px;
+}
