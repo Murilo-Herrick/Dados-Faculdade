@@ -1,0 +1,67 @@
+version: '3.8'
+
+services:
+
+  paciente:
+    build: ./paciente
+    ports:
+      - "5002:5000"
+    networks:
+      - sis01
+    depends_on:
+      - db
+      
+  plano_saude_mock:
+    build: ./plano_saude_mock
+    ports:
+      - "5005:5000"
+    networks:
+      - sis01
+    depends_on:
+      - db
+
+  consulta:
+    build: ./consulta
+    ports:
+      - "5001:5000"
+    networks:
+      - sis01
+    depends_on:
+      - db
+  
+  prontuario:
+    build: ./prontuario
+    ports:
+      - "5003:5000"
+    networks:
+      - sis01
+    depends_on:
+      - db
+
+  faturamento:
+    build: ./faturamento
+    ports:
+      - "5004:5000"
+    networks:
+      - sis01
+    depends_on:
+      - db
+  
+  db:
+    image: mysql:5.7
+    environment:
+      MYSQL_ROOT_PASSWORD: password
+      MYSQL_DATABASE: medical_clinic_db
+    volumes:
+      - db_data:/var/lib/mysql
+    ports:
+      - "3309:3306"
+    networks:
+      - sis01
+  
+volumes:
+  db_data:
+
+networks:
+  sis01:
+    driver: bridge
