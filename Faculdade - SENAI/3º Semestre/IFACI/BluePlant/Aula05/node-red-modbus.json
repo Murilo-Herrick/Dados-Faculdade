@@ -1,0 +1,223 @@
+[
+    {
+        "id": "e3b002989e34b225",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "c67afb159878bedd",
+        "type": "serial-port",
+        "name": "ARDUINO",
+        "serialport": "COM5",
+        "serialbaud": "9600",
+        "databits": 8,
+        "parity": "none",
+        "stopbits": 1,
+        "waitfor": "",
+        "dtr": "none",
+        "rts": "none",
+        "cts": "none",
+        "dsr": "none",
+        "newline": "\\n",
+        "bin": "false",
+        "out": "char",
+        "addchar": "",
+        "responsetimeout": 10000
+    },
+    {
+        "id": "68998793f01889ac",
+        "type": "modbus-client",
+        "name": "Local",
+        "clienttype": "tcp",
+        "bufferCommands": true,
+        "stateLogEnabled": false,
+        "queueLogEnabled": false,
+        "failureLogEnabled": true,
+        "tcpHost": "127.0.0.1",
+        "tcpPort": 502,
+        "tcpType": "DEFAULT",
+        "serialPort": "/dev/ttyUSB",
+        "serialType": "RTU-BUFFERD",
+        "serialBaudrate": 9600,
+        "serialDatabits": 8,
+        "serialStopbits": 1,
+        "serialParity": "none",
+        "serialConnectionDelay": 100,
+        "serialAsciiResponseStartDelimiter": "0x3A",
+        "unit_id": 1,
+        "commandDelay": 1,
+        "clientTimeout": 1000,
+        "reconnectOnTimeout": true,
+        "reconnectTimeout": 2000,
+        "parallelUnitIdsAllowed": true,
+        "showErrors": false,
+        "showWarnings": true,
+        "showLogs": true
+    },
+    {
+        "id": "b6b4a655857b274c",
+        "type": "serial in",
+        "z": "e3b002989e34b225",
+        "name": "",
+        "serial": "c67afb159878bedd",
+        "x": 120,
+        "y": 320,
+        "wires": [
+            [
+                "af2b4cffd4d3026c"
+            ]
+        ]
+    },
+    {
+        "id": "af2b4cffd4d3026c",
+        "type": "json",
+        "z": "e3b002989e34b225",
+        "name": "",
+        "property": "payload",
+        "action": "obj",
+        "pretty": false,
+        "x": 290,
+        "y": 320,
+        "wires": [
+            [
+                "574180e73ec43ec6",
+                "1811b056d6b08ed2"
+            ]
+        ]
+    },
+    {
+        "id": "574180e73ec43ec6",
+        "type": "function",
+        "z": "e3b002989e34b225",
+        "name": "Enviar inteiro",
+        "func": "msg.payload = msg.payload.temperature;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 570,
+        "y": 260,
+        "wires": [
+            [
+                "655015eff4bd87f7"
+            ]
+        ]
+    },
+    {
+        "id": "1811b056d6b08ed2",
+        "type": "function",
+        "z": "e3b002989e34b225",
+        "name": "Enviar float",
+        "func": "let faar = new Float32Array(1);\nfaar[0] = msg.payload.humidity;\n\nlet iarr = new Int16Array(faar.buffer);\n\nlet valor2 = [];\nvalor2[0] = iarr[1];\nvalor2[1] = iarr[0];\n\nmsg.payload = valor2;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 570,
+        "y": 400,
+        "wires": [
+            [
+                "e3e2e5f68a0df236"
+            ]
+        ]
+    },
+    {
+        "id": "655015eff4bd87f7",
+        "type": "modbus-write",
+        "z": "e3b002989e34b225",
+        "name": "REG-0",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "unitid": "1",
+        "dataType": "HoldingRegister",
+        "adr": "0",
+        "quantity": "1",
+        "server": "68998793f01889ac",
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "x": 770,
+        "y": 260,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "e3e2e5f68a0df236",
+        "type": "modbus-write",
+        "z": "e3b002989e34b225",
+        "name": "REG-1.2",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "unitid": "1",
+        "dataType": "MHoldingRegisters",
+        "adr": "1",
+        "quantity": "2",
+        "server": "68998793f01889ac",
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "x": 760,
+        "y": 400,
+        "wires": [
+            [
+                "6d2f8ffacc8fe5e8"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "abe172289b5463a5",
+        "type": "modbus-server",
+        "z": "e3b002989e34b225",
+        "name": "",
+        "logEnabled": false,
+        "hostname": "127.0.0.1",
+        "serverPort": "502",
+        "responseDelay": 100,
+        "delayUnit": "ms",
+        "coilsBufferSize": "10",
+        "holdingBufferSize": "10",
+        "inputBufferSize": "10",
+        "discreteBufferSize": "10",
+        "showErrors": false,
+        "showStatusActivities": false,
+        "x": 740,
+        "y": 60,
+        "wires": [
+            [],
+            [],
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "6d2f8ffacc8fe5e8",
+        "type": "debug",
+        "z": "e3b002989e34b225",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1080,
+        "y": 500,
+        "wires": []
+    }
+]
